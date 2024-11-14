@@ -10,6 +10,10 @@ function Navbar() {
         setBurgerOpen(!burgerOpen);
     }
 
+    const closeBurger = () => {
+        setBurgerOpen(false);
+    }
+
     /* Navbar Links */
     const navigation = [
         {name: 'Projects', href: '/projects'},
@@ -23,7 +27,8 @@ function Navbar() {
             <>
                 {/* Map links to NavLinks */}
                 {navigation.map((item) => (
-                    <NavLink 
+                    <NavLink
+                    onClick={closeBurger} 
                     key={item.name}
                     to={item.href}
 
@@ -33,7 +38,7 @@ function Navbar() {
                         return (
                             
                             /* Set text to grey if NavLink is active, if not, white */
-                            'px-8 my-4 md:my-2 hover:text-fuchsia-700 font-bold ' + 
+                            'px-8 my-4 md:my-2 hover:text-fuchsia-700 font-bold' + 
                             (isActive ? ' text-gray-500' : ' text-white')
                         ) 
 
@@ -46,12 +51,12 @@ function Navbar() {
     } 
 
     return (
-    <div className="flex justify-between bg-neutral-800 align-middle px-7 py-5 flex-wrap"> {/* Flex wrap for dropdown menu */}
+    <div className="flex justify-between items-center bg-neutral-800 align-middle px-7 py-5 flex-wrap"> {/* Flex wrap for dropdown menu */}
 
         {/* Left Side of Navbar */}
         <div className="flex items-center justify-between">
 
-            <NavLink className="mr-auto text-2xl md:text-3xl no-underline text-white hover:text-fuchsia-700 font-bold" to="/">charlescrane.dev</NavLink>
+            <NavLink onClick={closeBurger} className="mr-auto text-2xl md:text-3xl no-underline text-white hover:text-fuchsia-700 font-bold" to="/">charlescrane.dev</NavLink>
 
         </div>
 
