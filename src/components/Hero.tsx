@@ -13,9 +13,9 @@ function Hero() {
 
             <div className="flex items-center space-around">
 
-              <a href="https://x.com/cc_pwnn"><FontAwesomeIcon icon={faXTwitter} size="2xl" color="white" className="mx-4"/></a>
-              <a href="https://github.com/ChxrlieExe33"><FontAwesomeIcon icon={faGithub} size="2xl" color="white" className="mx-4"/></a>
-              <a href="https://www.linkedin.com/in/charlesdavidcrane/"><FontAwesomeIcon icon={faLinkedin} size="2xl" color="white" className="mx-4"/></a>
+              <a href="https://x.com/cc_pwnn" target="_blank"><FontAwesomeIcon icon={faXTwitter} size="2xl" color="white" className="mx-4"/></a>
+              <a href="https://github.com/ChxrlieExe33" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" color="white" className="mx-4"/></a>
+              <a href="https://www.linkedin.com/in/charlesdavidcrane/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2xl" color="white" className="mx-4"/></a>
 
             </div>
 

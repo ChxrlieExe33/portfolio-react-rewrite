@@ -1,6 +1,12 @@
+import ContactCard from "../components/ContactCard"
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+    
+      <ContactCard />
+
+    </>
   )
 }
 

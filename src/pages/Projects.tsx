@@ -1,6 +1,12 @@
+import ProjectPlaceholder from "../components/ProjectPlaceholder"
+
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <>
+    
+      <ProjectPlaceholder />
+
+    </>
   )
 }
 
