@@ -1,9 +1,5 @@
-# Portfolio Rewrite
+# My portfolio website
 
-My current portfolio website is very basic and written in plain HTML, CSS and JS hosted on Github pages
+I'm a beginner web developer and I wanted to create a portfolio website to show off any projects I build during learning
 
-Here is my attempt at rewriting what I have already made there but using React with Typescript and Tailwind instead.
-
-Once this is sufficiently built it will replace the code in my original portfolio repository.
-
-Current portfolio: https://www.charlescrane.dev
+https://www.charlescrane.dev
